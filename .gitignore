@@ -1,0 +1,19 @@
+# 不要提交任何本地运行时数据
+.env
+*.db
+*.db-wal
+*.db-shm
+
+# 实测数据：扫描结果、抓到的凭据、目标信息
+engagement/
+evidence/
+findings/
+reports/
+*_EXCLUDED.md
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
